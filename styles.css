@@ -2,6 +2,16 @@ body {
     font-family: sans-serif;
     text-align: center;
     font-size: 1.75vw;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    height: 3vw;
+    margin: 0px 0px 50px 0px;
+    padding: 0em 1.5em 1.5em 0em;
+    color: white;
+    line-height: 3vw;
 }
 
 .container {
@@ -10,7 +20,7 @@ body {
 
 .sound {
     text-align: center;
-    border: 2px solid blue;
+    border: 5px solid black;
     background: lightblue;
     border-radius: 20px;
     margin: 2px;
@@ -19,18 +29,34 @@ body {
     cursor: pointer;
 }
 
+footer {
+    background-color: black;
+    height: 3vw;
+    padding: 0em 1.5em 1.5em 1.5em;
+    color: white;
+    line-height: 3vw;
+
+}
+
 
 @media only screen and (max-width: 920px) {
     body {
-        font-size: 3vw;
-        /* border-radius: 10px; */
-        margin: 20px;
-        padding: 1em;
+        font-size: 2.5vw;
+        margin: 0px;
+    }
+
+    header {
+        background-color: black;
+        height: 2vw;
+        margin: 0px 0px 30px 0px;
+        padding: 0em 1.5em 1.5em 1.5em;
+        color: white;
+        line-height: 2vw;
     }
 
     .sound {
         text-align: center;
-        border: 2px solid blue;
+        border: 5px solid black;
         background: lightblue;
         border-radius: 20px;
         margin: 2px;
@@ -44,15 +70,22 @@ body {
 
 @media only screen and (max-width: 600px) {
     body {
-        font-size: 4vw;
-        /* border-radius: 10px; */
-        margin: 20px;
-        padding: 1em;
+        font-size: 3vw;
+        margin: 0px;
+    }
+
+    header {
+        background-color: black;
+        height: 6vw;
+        margin: 0px 0px 30px 0px;
+        padding: 0em 1.5em 1.5em 0em;
+        color: white;
+        line-height: 6vw;
     }
 
     .sound {
         text-align: center;
-        border: 2px solid blue;
+        border: 5px solid black;
         background: lightblue;
         border-radius: 20px;
         margin: 2px;
