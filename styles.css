@@ -29,6 +29,18 @@ header {
     cursor: pointer;
 }
 
+#switch {
+    text-align: center;
+    border: 3px solid black;
+    background: lightcoral;
+    border-radius: 10px;
+    margin: 2px;
+    display: inline-block;
+    width: 40%;
+    cursor: pointer;
+}
+
+
 footer {
     background-color: black;
     height: 3vw;
